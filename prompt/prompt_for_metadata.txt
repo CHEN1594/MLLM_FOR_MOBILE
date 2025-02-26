@@ -1,0 +1,49 @@
+can you see clearly of this photo?
+
+
+output the following details in JSON format, do not use python, do not forget origin text like 0: 
+
+1. chartType - The type of chart (e.g., scatter plot, bar chart, grouped bar chart, line chart, etc.).
+
+2. title - The title of the chart, if available.
+
+3. 
+xAxis
+
+
+    \- Information about the x-axis:
+
+   - name - The name of the x-axis.
+   - ticks - The tick values or labels on the x-axis.
+   - type - The type of data on the x-axis (Quantitative, Categorical).
+
+4. 
+yAxis
+
+
+    \- Information about the y-axis:
+
+   - name - The name of the y-axis.
+   - ticks - The tick values or labels on the y-axis.
+   - type - The type of data on the y-axis (Quantitative, Categorical).
+
+5. legend - Information about the chart's legend, if present.
+
+Output the results in JSON format, filling any missing elements with null. Example output:
+
+json
+{
+  "chartType": "Scatter Plot",
+  "title": null,
+  "xAxis": {
+    "name": "Number of developers",
+    "ticks": ["10,000", "20,000", "30,000", "40,000"],
+    "type": "Quantitative"
+  },
+  "yAxis": {
+    "name": "Relative participation by men/women",
+    "ticks": ["10x", "15x", "20x", "25x"],
+    "type": "Quantitative"
+  },
+  "legend": null
+}

@@ -1,0 +1,21 @@
+计算出的柱状图数据 (34_0_pc.json):
+{"x": "0", "y": 1560784.3, "category": "Female"}
+{"x": "5", "y": 1568627.5, "category": "Female"}
+{"x": "10", "y": 1482352.9, "category": "Female"}
+{"x": "15", "y": 1333333.3, "category": "Female"}
+{"x": "20", "y": 1254902.0, "category": "Female"}
+{"x": "25", "y": 1113725.5, "category": "Female"}
+{"x": "30", "y": 1043137.3, "category": "Female"}
+{"x": "35", "y": 1200000.0, "category": "Female"}
+{"x": "40", "y": 1168627.5, "category": "Female"}
+{"x": "45", "y": 1074509.8, "category": "Female"}
+{"x": "50", "y": 917647.1, "category": "Female"}
+{"x": "55", "y": 870588.2, "category": "Female"}
+{"x": "60", "y": 815686.3, "category": "Female"}
+{"x": "65", "y": 698039.2, "category": "Female"}
+{"x": "70", "y": 525490.2, "category": "Female"}
+{"x": "70", "y": 2007843.1, "category": "Male"}
+{"x": "70", "y": 1913725.5, "category": "Female"}
+{"x": "75", "y": 352941.2, "category": "Female"}
+{"x": "80", "y": 211764.7, "category": "Female"}
+{"x": "85", "y": 117647.1, "category": "Female"}

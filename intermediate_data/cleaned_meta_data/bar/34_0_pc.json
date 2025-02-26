@@ -1,0 +1,55 @@
+{
+  "chartType": "Bar Chart",
+  "title": "Census Age Group and Population by Sex",
+  "xAxis": {
+    "name": "Age Group",
+    "ticks": [
+      "0",
+      "5",
+      "10",
+      "15",
+      "20",
+      "25",
+      "30",
+      "35",
+      "40",
+      "45",
+      "50",
+      "55",
+      "60",
+      "65",
+      "70",
+      "75",
+      "80",
+      "85"
+    ],
+    "type": "Categorical"
+  },
+  "yAxis": {
+    "name": "Population",
+    "ticks": [
+      "0",
+      "200000",
+      "400000",
+      "600000",
+      "800000",
+      "1000000",
+      "1200000",
+      "1400000",
+      "1600000",
+      "1800000",
+      "2000000"
+    ],
+    "type": "Quantitative"
+  },
+  "legend": {
+    "items": [
+      "Male",
+      "Female"
+    ],
+    "colors": [
+      "#4A90E2",
+      "#FF99CC"
+    ]
+  }
+}
