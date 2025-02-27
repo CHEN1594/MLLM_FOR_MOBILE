@@ -1,0 +1,28 @@
+{
+  "chartType": "Pie Chart",
+  "title": "Customer Service Satisfaction Survey",
+  "xAxis": {
+    "name": null,
+    "ticks": null,
+    "type": null
+  },
+  "yAxis": {
+    "name": null,
+    "ticks": null,
+    "type": null
+  },
+  "legend": {
+    "items": [
+      "Excellent",
+      "Satisfactory",
+      "Neutral",
+      "Poor"
+    ],
+    "colors": [
+      "#20C997",
+      "#8BC34A",
+      "#7E57C2",
+      "#42A5F5"
+    ]
+  }
+}

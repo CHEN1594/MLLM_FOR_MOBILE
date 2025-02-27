@@ -1,6 +1,5 @@
 can you see clearly of this photo?
 
-
 output the following details in JSON format, do not use python, do not forget origin text like 0: 
 
 1. chartType - The type of chart (e.g., scatter plot, bar chart, grouped bar chart, line chart, etc.).
@@ -45,5 +44,14 @@ json
     "ticks": ["10x", "15x", "20x", "25x"],
     "type": "Quantitative"
   },
-  "legend": null
+  "legend": {
+    "items": [
+      "Male",
+      "Female"
+    ],
+    "colors": [
+      "#4A90E2",
+      "#FF99CC"
+    ]
+  }
 }

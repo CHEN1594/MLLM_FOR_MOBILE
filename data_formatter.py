@@ -13,7 +13,7 @@ os.makedirs(output_simvec_directory, exist_ok=True)
 os.makedirs(output_metadata_directory, exist_ok=True)
 
 # 支持的图表类型 (文件夹名称)
-chart_types = ["bar", "scatter"]
+chart_types = ["bar", "scatter", "pie"]
 
 # 规范化文本内容的函数
 def normalize_text_content(text: str) -> str:
@@ -37,7 +37,8 @@ for chart_type in chart_types:
                 "rect": [],
                 "text": [],
                 "circle": [],
-                "line": []
+                "line": [],
+                "area": []  # 新增 area 类型
             }
 
             with open(input_path, "r", encoding="utf-8") as f:
@@ -81,6 +82,14 @@ for chart_type in chart_types:
                             "points": points
                         })
 
+                    elif line.startswith("area "):  # 新增的 area 类型处理
+                        _, color, points_str = line.split(" ", 2)
+                        points = [[int(p.split(',')[0]), int(p.split(',')[1])] for p in points_str.split(';')]
+                        data["area"].append({
+                            "color": color,
+                            "points": points
+                        })
+
             with open(output_path, "w", encoding="utf-8") as f_out:
                 json.dump(data, f_out, indent=2)
 
@@ -102,13 +111,23 @@ for chart_type in chart_types:
                 metadata = json.load(f)
 
             # 处理 X 轴文本
-            if "xAxis" in metadata and "ticks" in metadata["xAxis"]:
+            if (
+                "xAxis" in metadata 
+                and metadata["xAxis"] is not None 
+                and "ticks" in metadata["xAxis"] 
+                and metadata["xAxis"]["ticks"] is not None
+            ):
                 metadata["xAxis"]["ticks"] = [
                     normalize_text_content(tick) for tick in metadata["xAxis"]["ticks"]
                 ]
 
             # 处理 Y 轴文本
-            if "yAxis" in metadata and "ticks" in metadata["yAxis"]:
+            if (
+                "yAxis" in metadata 
+                and metadata["yAxis"] is not None 
+                and "ticks" in metadata["yAxis"] 
+                and metadata["yAxis"]["ticks"] is not None
+            ):
                 metadata["yAxis"]["ticks"] = [
                     normalize_text_content(tick) for tick in metadata["yAxis"]["ticks"]
                 ]

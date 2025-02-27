@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require('path');
 const { SingleBar } = require('cli-progress');
 
-const directoryName = "scatter"; // 你的文件夹名称
+const directoryName = "pie"; 
 const outputDirectory = path.resolve(`intermediate_data/raw_simvec_data/${directoryName}`);
 
 // 确保输出目录存在 
