@@ -2,7 +2,7 @@ can you see clearly of this photo?
 
 output the following details in JSON format, do not use python, do not forget origin text like 0: 
 
-1. chartType - The type of chart (e.g., scatter plot, bar chart, grouped bar chart, line chart, etc.).
+1. chartType - The type of chart (e.g., scatter plot, bar chart, grouped bar chart,stacked bar chart, curved line chart, straight line chart). 
 
 2. title - The title of the chart, if available.
 

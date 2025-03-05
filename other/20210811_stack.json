@@ -1,0 +1,37 @@
+{
+    "chartType": "Stacked Area Chart",
+    "title": "# of baby born",
+    "xAxis": {
+      "name": "Time (year)",
+      "ticks": ["1880", "1900", "1920", "1940", "1960", "1980", "2000"],
+      "type": "Quantitative"
+    },
+    "yAxis": {
+      "name": "# of baby born",
+      "ticks": ["0", "50,000", "100,000", "150,000", "200,000"],
+      "type": "Quantitative"
+    },
+    "legend": {
+      "items": [
+        "Amanda",
+        "Ashley",
+        "Betty",
+        "Deborah",
+        "Dorothy",
+        "Helen",
+        "Linda",
+        "Patricia"
+      ],
+      "colors": [
+        "#66C2A5",
+        "#FC8D62",
+        "#8DA0CB",
+        "#E78AC3",
+        "#A6D854",
+        "#FFD92F",
+        "#E5C494",
+        "#BDBDBD"
+      ]
+    }
+  }
+  

@@ -1,0 +1,35 @@
+{
+  "chartType": "Curved Line Chart",
+  "title": null,
+  "xAxis": {
+    "name": "Time",
+    "ticks": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "type": "Quantitative"
+  },
+  "yAxis": {
+    "name": "sin(x) / cos(x)",
+    "ticks": [
+      "-1.0",
+      "-0.8",
+      "-0.6",
+      "-0.4",
+      "-0.2",
+      "0.0",
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8",
+      "1.0"
+    ],
+    "type": "Quantitative"
+  },
+  "legend": null
+}

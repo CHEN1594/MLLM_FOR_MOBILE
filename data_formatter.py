@@ -13,7 +13,7 @@ os.makedirs(output_simvec_directory, exist_ok=True)
 os.makedirs(output_metadata_directory, exist_ok=True)
 
 # 支持的图表类型 (文件夹名称)
-chart_types = ["bar", "scatter", "pie"]
+chart_types = ["bar", "scatter", "pie","line"]
 
 # 规范化文本内容的函数
 def normalize_text_content(text: str) -> str:

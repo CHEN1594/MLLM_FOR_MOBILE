@@ -1,0 +1,27 @@
+{
+    "chartType": "Grouped Bar Chart",
+    "title": "App Publishing Trend",
+    "xAxis": {
+      "name": "Years",
+      "ticks": ["2020", "2021", "2022", "2023", "2024"],
+      "type": "Categorical"
+    },
+    "yAxis": {
+      "name": "Total number of apps in store",
+      "ticks": ["0", "1M", "2M", "3M", "4M", "5M"],
+      "type": "Quantitative"
+    },
+    "legend": {
+      "items": [
+        "Apple App Store",
+        "Google Play Store",
+        "Amazon AppStore"
+      ],
+      "colors": [
+        "#87CEFA",
+        "#333333",
+        "#90EE90"
+      ]
+    }
+  }
+  
