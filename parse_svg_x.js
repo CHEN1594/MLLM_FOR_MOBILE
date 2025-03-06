@@ -3,8 +3,8 @@ const fs = require("fs");
 const path = require('path');
 const { SingleBar } = require('cli-progress');
 
-const directoryName = "line"; 
-const outputDirectory = path.resolve(`intermediate_data/raw_simvec_data/${directoryName}`);
+const directoryName = "input_svg_file"; 
+const outputDirectory = "intermediate_data/raw_simvec";
 
 // 确保输出目录存在 
 if (!fs.existsSync(outputDirectory)) {
@@ -23,7 +23,7 @@ if (!fs.existsSync(outputDirectory)) {
 
 
 
-  const directoryPath = path.resolve(`./input_data/${directoryName}`);
+  const directoryPath = path.resolve(`${directoryName}`);
 
   const files = fs
     .readdirSync(directoryPath)

@@ -1,0 +1,75 @@
+{
+    "x": {
+      "type": "x",
+      "main": true,
+      "attr_type": "Quantitative",
+      "fixed_distance": "wait",
+      "range": {
+        "begin": "wait",
+        "end": "wait"
+      },
+      "tick": [
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "1880"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "1900"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "1920"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "1940"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "1960"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "1980"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2000"
+        }
+      ]
+    },
+    "y": {
+      "type": "y",
+      "main": false,
+      "attr_type": "Quantitative",
+      "fixed_distance": "wait",
+      "range": {
+        "begin": "wait",
+        "end": "wait"
+      },
+      "tick": [
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "0"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "50,000"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "100,000"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "150,000"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "200,000"
+        }
+      ]
+    }
+  }
+  

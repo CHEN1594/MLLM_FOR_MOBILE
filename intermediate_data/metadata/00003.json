@@ -1,0 +1,70 @@
+{
+  "x": {
+    "type": "x",
+    "main": true,
+    "attr_type": "Categorical",
+    "fixed_distance": "wait",
+    "range": {
+      "begin": "wait",
+      "end": "wait"
+    },
+    "tick": [
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "2020"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "2021"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "2022"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "2023"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "2024"
+      }
+    ]
+  },
+  "y": {
+    "type": "y",
+    "main": false,
+    "attr_type": "Quantitative",
+    "fixed_distance": "wait",
+    "range": {
+      "begin": "wait",
+      "end": "wait"
+    },
+    "tick": [
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "0"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "1M"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "2M"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "3M"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "4M"
+      },
+      {
+        "position": { "x": "wait", "y": "wait" },
+        "content": "5M"
+      }
+    ]
+  }
+}

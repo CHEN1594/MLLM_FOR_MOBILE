@@ -1,0 +1,83 @@
+{
+    "x": {
+      "type": "x",
+      "main": true,
+      "attr_type": "Categorical",
+      "fixed_distance": "wait",
+      "range": {
+        "begin": "wait",
+        "end": "wait"
+      },
+      "tick": [
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2006"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2007"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2008"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2009"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2010"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2011"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2012"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2013"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2014"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2015"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "2016"
+        }
+      ]
+    },
+    "y": {
+      "type": "y",
+      "main": false,
+      "attr_type": "Quantitative",
+      "fixed_distance": "wait",
+      "range": {
+        "begin": "wait",
+        "end": "wait"
+      },
+      "tick": [
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "0K"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "10K"
+        },
+        {
+          "position": { "x": "wait", "y": "wait" },
+          "content": "20K"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,124 @@
+{
+  "x": {
+    "type": "x",
+    "main": true,
+    "attr_type": "Categorical",
+    "fixed_distance": 40.9,
+    "range": {
+      "begin": 41.5,
+      "end": 450.5
+    },
+    "tick": [
+      {
+        "position": {
+          "x": 41.5,
+          "y": 111.0
+        },
+        "content": "2006"
+      },
+      {
+        "position": {
+          "x": 82.5,
+          "y": 111.0
+        },
+        "content": "2007"
+      },
+      {
+        "position": {
+          "x": 123.5,
+          "y": 111.0
+        },
+        "content": "2008"
+      },
+      {
+        "position": {
+          "x": 164.5,
+          "y": 111.0
+        },
+        "content": "2009"
+      },
+      {
+        "position": {
+          "x": 204.5,
+          "y": 111.0
+        },
+        "content": "2010"
+      },
+      {
+        "position": {
+          "x": 245.0,
+          "y": 111.0
+        },
+        "content": "2011"
+      },
+      {
+        "position": {
+          "x": 286.5,
+          "y": 111.0
+        },
+        "content": "2012"
+      },
+      {
+        "position": {
+          "x": 327.5,
+          "y": 111.0
+        },
+        "content": "2013"
+      },
+      {
+        "position": {
+          "x": 368.5,
+          "y": 111.0
+        },
+        "content": "2014"
+      },
+      {
+        "position": {
+          "x": 409.5,
+          "y": 111.0
+        },
+        "content": "2015"
+      },
+      {
+        "position": {
+          "x": 450.5,
+          "y": 111.0
+        },
+        "content": "2016"
+      }
+    ]
+  },
+  "y": {
+    "type": "y",
+    "main": false,
+    "attr_type": "Quantitative",
+    "fixed_distance": 25.5,
+    "range": {
+      "begin": 52.0,
+      "end": 103.0
+    },
+    "tick": [
+      {
+        "position": {
+          "x": 29.0,
+          "y": 103.0
+        },
+        "content": "0K"
+      },
+      {
+        "position": {
+          "x": 29.0,
+          "y": 78.0
+        },
+        "content": "10K"
+      },
+      {
+        "position": {
+          "x": 29.0,
+          "y": 52.0
+        },
+        "content": "20K"
+      }
+    ]
+  }
+}
